@@ -39,7 +39,7 @@ async def start(client, message):
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            ⚠️مساعده", callback_data="help"),
+                                            "⚠️مساعده", callback_data="help"),
                                         InlineKeyboardButton(
                                             "🤍تابعنا", url="https://t.me/TI9TI9"),
                                          InlineKeyboardButton(

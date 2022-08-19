@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>مرحبا صديقي انا بوت تلجراف ميديا 
 
-👻 هذا هو بوت استخراج رابط تلجراف ميديا الخاص في سورس ايــثــون اختر ماتريد من الاسفل 
+👻 هذا هو بوت استخراج رابط تلجراف ميديا الخاص في سورس فولتر اختر ماتريد من الاسفل 
 👇 تسطيع استخراج 👇
 
 📽️ فيديوهات قصيره (ان لايتعدا حجمه 5MB).
@@ -32,19 +32,19 @@ async def start(client, message):
 👥 مجموعة الدعم.
 🚀 الاستخراج السريع .
 
-✍️هذا هو بوت استخراج رابط تلجراف ميديا الخاص ب سورس ايــثــون
+✍️هذا هو بوت استخراج رابط تلجراف ميديا الخاص ب سورس فولتر
 ارسل لي اي شئ تريده لاجعله رابط ්😝
 
-هل تحتاج لل المساعدة راسل المطور @TTTLL0</b>""",   
+هل تحتاج لل المساعدة راسل المطور @vrrrvrr</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "🌷Help", callback_data="help"),
+                                            ⚠️مساعده", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "✨قناتنا", url="https://t.me/EITHON1"),
+                                            "🤍تابعنا", url="https://t.me/TI9TI9"),
                                          InlineKeyboardButton(
 
-                                            "قناتنا على اليوتيوب", url="https://youtube.com/channel/UC-zRRPaD5kTKFXd-Io3mVXw")
+                                            "السورس", url="https://t.me/TI9TI9")
                                     ]]
                             ),
             disable_web_page_preview=True,        
@@ -59,9 +59,9 @@ async def help(client, message):
 
 فقط ارسل صوره او فيديو قصير او متحركه وسوف احوله الى رابط تلجراف .🎉
 
-☘️ المبرمج : @TTTLL0
+🤍 المبرمج : @vrrrvrr
 
-@EITHON1</b>""",
+@TI9TI9</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -80,13 +80,13 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>حول هذا البوت!</b>
 
-<b>☘️ المبرمج :</b> <a href="https://t.me/TTTLL0">FORM SIYRA🇸🇾</a>
+<b>☘️ المبرمج :</b> <a href="https://t.me/vrrrvrr">FORM Iraq🇮🇶</a>
 
 <b>🔆اللغة:</b> <a href="https://www.python.org/">Python 3</a>
 
 <b>♻️اصدار بايروجرام 1.4.16:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>@EITHON1</b>""",
+<b>@TI9TI9</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -162,7 +162,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @EITHON1
+Join @TI9TI9
 """
 )
 
